@@ -1,0 +1,180 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----Navigation-----*/
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: rgb(37, 95, 255)!important;
+}
+.navbar
+{
+    background: rgb(100, 179, 113);
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color:rgb(34, 34, 34)!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.inicio
+{
+    height: 35px;
+    width: auto;
+}
+
+/*-----About-----*/
+
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:rgb(82, 82, 82);
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    color:rgb(85, 85, 85);
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+#iframe2
+{
+    text-align: center;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 100%;
+}
+#foto 
+{
+    text-align: center;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+}
+#foto video
+{
+    width: 100%;
+    height: auto;
+}
+#foto img
+{
+    width: 100%;
+    height: auto;
+}
+
+/*-----Materias-----*/
+
+#materias
+{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(books.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#materias h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#materias h1::after
+{
+    content:'';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.materias
+{
+    margin-top: 2px;
+}
+.icon
+{
+    font-size: 30px;
+    margin: 15px auto;
+    padding: 13px;
+    height: 60px;
+    width: 60px;
+    border: 0.5px solid #fff;
+    border-radius: 50%;
+}
+.materias .col-md-3:hover
+{
+    background: rgba(199, 199, 199, 0.411);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.materias .col-md-4:hover
+{
+    background: rgba(199, 199, 199, 0.411);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#pomodoro
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:rgb(75, 75, 75);
+}
+#pomodoro h2
+{
+    padding-bottom: 20px;
+}
+.pomodoro-video
+{
+    height: 67%;
+    width: 100%;
+}
