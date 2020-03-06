@@ -28,7 +28,7 @@
 }
 #nav-bar ul li a:hover
 {
-    color: rgb(37, 95, 255)!important;
+    color: rgb(37, 95, 255);
 }
 .navbar
 {
@@ -177,4 +177,21 @@
 {
     height: 67%;
     width: 100%;
+}
+.links
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: crimson;
+}
+.links .icon,h3
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+a:hover
+{
+    text-decoration: none!important;
+    color: rgb(255, 255, 255);
 }
