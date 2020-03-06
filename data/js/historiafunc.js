@@ -28,6 +28,12 @@ function randomItemFrom(lista){
 function getCuestionado(){
     var thisCuestions = []
     for(i=3;i<3;i++){
-        var temoCuest
+        var tempCuest = randomItemFrom(cuestions)
+        if(thisCuestions.includes(tempCuest)==true){
+            i--
+        }
+        else{
+            thisCuestions.push(tempCuest)
+        }
     }
 }
