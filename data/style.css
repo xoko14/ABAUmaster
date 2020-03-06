@@ -52,11 +52,31 @@
 
 /*-----About-----*/
 
-#about
+#about,#about2
 {
     padding-top: 50px;
     padding-bottom: 50px;
     color:rgb(82, 82, 82);
+}
+.about2-title
+{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+.tablas
+{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+#about2 p
+{
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+#about2 p
+{
+    padding-left: 40px;
 }
 #about .btn
 {
@@ -194,4 +214,8 @@ a:hover
 {
     text-decoration: none!important;
     color: rgb(255, 255, 255);
+}
+.real
+{
+    color: rgb(116, 116, 116);
 }
