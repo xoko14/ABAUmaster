@@ -104,20 +104,22 @@
 }
 #foto 
 {
+    width: 100%;
+    height: 60%;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(books.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #efefef;
+}
+#foto h1
+{
     text-align: center;
-    padding-bottom: 30px;
-    width: 100%;
-    height: auto;
-}
-#foto video
-{
-    width: 100%;
-    height: auto;
-}
-#foto img
-{
-    width: 100%;
-    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 500%);
 }
 .icon
 {
@@ -374,8 +376,8 @@ a:hover
         width: 235px;
         margin: 20px 0 5px;
     }
-    /*-----Tecnología-----*/
-    #materias-tecn
+    /*-----DibujoT-----*/
+    #materias-dibu
     {
         background-image:
         linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(books.jpg);
@@ -386,19 +388,19 @@ a:hover
         padding-top: 25px;
         padding-bottom: 25px;
     }
-    #materias-tecn h1
+    #materias-dibu h1
     {
         text-align: left;
         color: #efefef !important;
         padding-bottom: 10px;
     }
-    #materias-tecn h1::after
+    #materias-dibu h1::after
     {
         content:'';
         background: #efefef;
         display: block;
         height: 3px;
-        width: 197px;
+        width: 269px;
         margin: 20px 0 5px;
     }
     
@@ -430,4 +432,13 @@ a:hover
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 40px;
+}
+
+/*-----Footer-----*/
+#footer
+{
+    background: rgb(223, 223, 223);
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+    padding-bottom: 3px;
 }
