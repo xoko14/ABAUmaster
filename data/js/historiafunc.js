@@ -27,7 +27,7 @@ function randomItemFrom(lista){
 
 function getCuestionado(){
     var thisCuestions = []
-    for(i=3;i<3;i++){
+    for(i=0;i<3;i++){
         var tempCuest = randomItemFrom(cuestions)
         if(thisCuestions.includes(tempCuest)==true){
             i--
@@ -36,4 +36,20 @@ function getCuestionado(){
             thisCuestions.push(tempCuest)
         }
     }
+    return thisCuestions
+}
+
+function showDef(){
+    var def = getDefinido()
+    document.getElementById("definitions").innerHTML = def[0] + ", " + def[1] + ", " + def[2] + ", " + def[3] + ", " + def[4] + ", " + def[5] + "."
+}
+
+function showCuest(){
+    var asunto = getCuestionado()
+    document.getElementById("c1").innerHTML = asunto[0] + "."
+    document.getElementById("c2").innerHTML = asunto[1] + "."
+    document.getElementById("c3").innerHTML = asunto[2] + "."
+}
+function myDebug(arrayChosen){
+    document.getElementById("comentarioHist").innerHTML = arrayChosen
 }
