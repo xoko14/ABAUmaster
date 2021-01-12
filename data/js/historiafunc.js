@@ -53,3 +53,4 @@ function showCuest(){
 function myDebug(arrayChosen){
     document.getElementById("comentarioHist").innerHTML = arrayChosen
 }
+//test
